@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais tabelas</title>
+</head>
+<body>
+    <h1>Mais sobre tabelas</h1>
+    <hr>
+    <!--Construcao de uma tabela semantica, usando caption, tbody, thead, tfoot-->
+    <table border="1">
+        <caption>Listagem de produtos</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>1</td>
+                <td>R$ 2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Smartphone</td>
+                <td>2</td>
+                <td>R$ 1700</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td style="text-align: center;" colspan="2">R$ 200</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" colspan="2">R$ 170</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

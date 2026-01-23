@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre Formularios</title>
+</head>
+<body>
+    <h1>Mais sobre Formularios</h1>
+    <form action="processa.html" method="GET">
+        <h2>Label</h2>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name">
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha"><br>
+        <h2>Mais elementos de formulario</h2>
+
+        <label>Genero</label><br>
+        <input type="radio" name="genero" id="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+        <br>
+        <label>Estilo Musical</label><br>
+        <input type="checkbox" name="rock" id="rock">
+        <label for="rock">Rock</label>
+        <input type="checkbox" name="pop" id="pop">
+        <label for="pop">Pop</label>
+        <input type="checkbox" name="sertanejo" id="sertanejo">
+        <label for="sertanejo">Sertanejo</label>
+        <br>
+        <br>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="sp">Sao Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="pr">Parana</option>
+        </select>
+        <br><br>
+        <label>Upload de arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo">
+        <br><br>
+        <input type="submit" value="cadastrar">
+    </form>
+    <form action="">
+        <h2>fieldset & legends</h2>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="name2">Nome:</label>
+            <input type="text" name="name2" id="name2">
+            <label for="senha2">Senha:</label>
+            <input type="password" name="senha2" id="senha2">
+        </fieldset>
+        <fieldset>
+            <legend>Dados adicionais</legend>
+            <label>Genero</label><br>
+            <input type="radio" name="genero2" id="masculino2">
+            <label for="masculino2">Masculino</label>
+            <input type="radio" name="genero2" id="feminino2">
+            <label for="feminino2">Feminino</label>
+        </fieldset>
+    </form>
+</body>
+</html>
