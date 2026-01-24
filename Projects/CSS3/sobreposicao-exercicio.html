@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreposição de Elementos</title>
+    <style>
+        body{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #banner{
+            background-color: purple;
+            width: 900px;
+            position: relative;
+        }
+        #tempo{
+            position: absolute;
+            bottom: 4em;
+            left: 2em;
+            background-color: orange;
+            padding: 10px 16px;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+        }
+        #codigo{
+            position: absolute;
+            bottom: -1.8em;
+            left: 10%;
+            right: 10%;
+            background-color: white;
+            padding: 1em;
+            border: 2px dotted purple;
+            text-align: center;
+            border-radius: 2px 2px 20px 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Sobreposição de Elementos</h1>
+    <div id="banner">
+        <img src="img/banner.png" alt="banner" width="900px">
+        <div id="tempo">
+            <p>Tempo limitado</p>
+        </div>
+        <div id="codigo"><p>Quero promocao</p></div>
+    </div>
+    
+    
+</body>
+</html>
