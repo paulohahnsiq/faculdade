@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 900px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2{
+    background-color: bisque;
+    text-align: center;
+    margin: 20px;
+    width: 900px;
+    padding: 20px;
+    height: 700px;
+}
