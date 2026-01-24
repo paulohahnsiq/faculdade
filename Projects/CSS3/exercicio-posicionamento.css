@@ -1,0 +1,45 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#novo{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#conteudo{
+    width: 900px;
+    background-color: white;
+    margin: 1em auto;
+    padding: 0.8em;
+    position: relative;
+}
+#menu{
+    background-color: #0497f3;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+
+a:hover{
+    background-color: white;
+    color: #0497f3;
+}
+
+#chat{
+    padding: 0.5em;
+    background-color: violet;
+    width: 150px;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
