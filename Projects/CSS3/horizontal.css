@@ -1,0 +1,33 @@
+ul{
+            width: 600px;
+            background-color: black;
+            padding: 20px;
+            margin-right: 50px;
+        }
+        li{
+            display: inline;
+            list-style-type: none;
+            margin-right: 11px;
+        }
+        .menu{
+            color: white;
+            padding: 0.5em 2em;
+            text-decoration: none;
+        }
+        .menu:hover{
+            background-color: white;
+            color: black;
+            padding: 0.5em 2em;
+            border-radius: 50px;
+        }
+        .menu:active{
+            background-color: gray;
+            color: white;
+        }
+        #selecionado{
+            color: white;
+            padding: 0.5em 2em;
+            text-decoration: none;
+            border-radius: 50px;
+            background: orange url(img/seta.png) no-repeat 0.8em center;
+        }
